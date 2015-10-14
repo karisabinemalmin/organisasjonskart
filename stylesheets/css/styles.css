@@ -143,7 +143,14 @@ ul.sections {
   margin-top: -3.6em;
   padding-top: 1.5em; }
 
-@media (min-width: 1350px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .departments__item {
+    width: 30%;
+    float: left;
+    display: block;
+    min-height: 400px; } }
+
+@media (min-width: 1400px) {
   .departments {
     display: table;
     width: 100%;

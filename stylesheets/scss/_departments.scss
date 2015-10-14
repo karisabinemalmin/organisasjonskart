@@ -47,7 +47,16 @@
 
 
 
-
+@media (min-width: $breakpoint-desktop) and (max-width: $breakpoint-huge) {
+  .departments__item {
+    width: 30%;
+    float: left;
+    display: block;
+    min-height: 400px;
+    &:nth-child(4n) {
+    }
+  }
+}
 
 @media (min-width: $breakpoint-huge) {
   .departments {
