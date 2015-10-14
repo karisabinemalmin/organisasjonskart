@@ -6,11 +6,11 @@
   margin: 0;
 }
 .departments__item {
-  word-break: break-word;
+  //word-break: break-word;
   margin: 1em;
 }
 .departments__item__parent {
-  padding: 1em;
+  padding: 1em 0;
   display: block;
   border-bottom: .5em solid white;
   font-weight: bold;
@@ -22,7 +22,7 @@
 }
 .departments__children__item a {
   font-weight: normal;
-  padding: 1em;
+  padding: 1em 0;
   border-left: 2.5em solid white;
   border-bottom: 8px solid white;
   background: rgba(255,255,255,.6);
